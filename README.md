@@ -2,69 +2,59 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Event-Countdown Website 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: NovaTech
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Anamika S - College of Engineering Perumon
+- Member 2: Aiswarya D - College of Engineering Perumon
 
 ### Hosted Project Link
-[mention your project hosted link here]
+Count down to what matters.
 
 ### Project Description
-[2-3 lines about what your project does]
+Create beautiful, shareable countdowns for birthdays, weddings, launches, holidays, and life’s biggest moments. Track time in days, hours, minutes, and seconds — and never miss what you’re excited about.
 
 ### The Problem statement
-[What problem are you solving?]
+People often tend to forget important events like bithdays,events,exam,meeting etc. There is no simple way to track the date and how much time is left until the event.So they miss the events.
 
 ### The Solution
-[How are you solving it?]
+An easy-to-use platform that lets anyone create and share real-time countdown timers for upcoming events. Simply set your date, customize your style, and instantly start tracking the time left until your special moment.
 
 ---
 
 ## Technical Details
-
+The platform is built using modern web technologies to ensure fast performance and real-time updates. The countdown timers run on client-side JavaScript for accurate second-by-second tracking, with optional server synchronization for precise time consistency across devices. The website is fully responsive, optimized for mobile and desktop, and securely hosted in the cloud for reliable uptime and scalability.
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
+- Python,html,javascript,css
+- Flask
+- vs code,github
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
-
+- Real-time countdown timer with second-by-second updates
+- Ability to create countdowns for any date and time
+- Simple and user-friendly interface
 ---
 
 ## Implementation
-
+The project is built using Python for backend routing and HTML, CSS, and JavaScript for the frontend. Users enter an event date and time, and JavaScript calculates the time difference using the Date object. The countdown updates every second to display real-time results and is designed to work on both desktop and mobile devices.
 ### For Software:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+pip install -r requirements.txt
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+python app.py
 ```
 
 ### For Hardware:
@@ -78,19 +68,27 @@ List the key features of your project:
 ---
 
 ## Project Documentation
+ProThe Event Countdown website is developed using Python, HTML, CSS, and JavaScript. It allows users to create real-time countdown timers for upcoming events. The system calculates the time difference between the current date and the selected event date and updates the countdown every second. The application is simple, responsive, and user-friendly.
 
 ### For Software:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot1]<img width="1876" height="886" alt="Screenshot 2026-02-28 105126" src="https://github.com/user-attachments/assets/b7359800-6817-491a-9c06-89cb714a5763" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+shows the frontend displaying event name,event date,notify email
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]<img width="1855" height="886" alt="Screenshot 2026-02-28 105203" src="https://github.com/user-attachments/assets/ece3d8f4-e255-44d4-ba8c-ae581f3d62f0" />
+
+the frontend displaying a reminder message and start countdown button
+
+![Screenshot3]<img width="1863" height="874" alt="Screenshot 2026-02-28 105303" src="https://github.com/user-attachments/assets/c1a64083-9cc8-4c74-8f87-3744a68f85e5" />
+
+frontend with details given by the user
+
+![Screenshot4]<img width="1864" height="870" alt="Screenshot 2026-02-28 105329" src="https://github.com/user-attachments/assets/4f9c87a8-ebf8-405b-ab4a-c7f01407ccb9" />
+
+shows the countdown of the event date
 
 #### Diagrams
 
@@ -106,262 +104,13 @@ List the key features of your project:
 
 ---
 
-### For Hardware:
 
-#### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
-
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
-
-#### Installation Guide
-
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
-
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
-
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
-
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
-
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
 
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+https://drive.google.com/file/d/1v9JP3yZ19D6xTJRZR3GNIZcZJIlyy1qI/view?usp=drivesdk
 
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
